@@ -90,6 +90,7 @@ body {
 .gallery {
     background: #fff;
     margin-bottom: 80px;
+    padding-top: 80px;
 }
 
 .gallery-content {
@@ -257,6 +258,8 @@ nav ul li a:hover {
 /* feature part */
 .feature {
     padding: 100px 0;
+    margin-right: 80px;
+    margin-left: 80px;
 }
 
 .feature-content {
@@ -280,7 +283,7 @@ nav ul li a:hover {
 .img-1 {
     border-radius: 300px 300px 0px 0px;
     background: rgba(167, 33, 98, 0.15);
-    width: 400px;
+    width: 350px;
     height: 460px;
     display: flex;
     justify-content: center;
