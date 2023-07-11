@@ -85,18 +85,18 @@ body {
     vertical-align: middle;
 }
 
-/* galary Part */
+/* gallery Part */
 
-.galary {
+.gallery {
     background: #fff;
     margin-bottom: 80px;
 }
 
-.galary-content {
+.gallery-content {
     text-align: center;
 }
 
-.galary-content h3 {
+.gallery-content h3 {
     color: #272727;
     font-family: Lato;
     font-size: 30px;
@@ -104,7 +104,7 @@ body {
     margin-bottom: 20px;
 }
 
-.galary-content p {
+.gallery-content p {
     width: 594px;
     color: #27272799;
     text-align: center;
@@ -114,15 +114,12 @@ body {
     margin-bottom: 25px;
 }
 
-.galary {
-    /* margin-left: 40px; */
-}
 
-.galary-images {
+.gallery-images {
     text-align: center;
 }
 
-.galary-images img {
+.gallery-images img {
     width: 260px;
     height: 340px;
     margin: 10px;
@@ -204,31 +201,38 @@ body {
     font-weight: 400;
 
 }
+
 /* adding Bonus part */
-nav{
+nav {
     display: flex;
     background: #e554731a;
     padding-top: 10px;
 }
-nav h2{
+
+nav h2 {
     font-weight: 700;
     font-size: 35px;
 }
-nav h2 span{
+
+nav h2 span {
     color: #E55473;
 }
-nav ul{
+
+nav ul {
     margin: 0 auto;
     display: flex;
 }
-nav ul li{
+
+nav ul li {
     list-style: none;
 }
-.menu{
+
+.menu {
     text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
 }
+
 nav ul li a {
     padding: 15px 25px;
     color: #474747;
@@ -245,4 +249,53 @@ nav ul li a:hover {
     background: #E55473;
     transition: all linear .3s;
     border-radius: 5px;
+}
+
+/* feature part */
+.feature {
+    padding: 100px 0;
+}
+
+.feature-content {
+    text-align: center;
+}
+
+.feature-content h3 {
+    color: #272727;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.feature-content p {
+    color: #27272799;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 10px 0 25px;
+}
+
+.img-1 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    width: 400px;
+    height: 460px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.feature-img {
+    display: flex;
+}
+
+.img-1 img {
+    width: 320px;
+    height: 370px;
+}
+
+.img-2 {
+    background: #0597a026;
+}
+.img-3{
+    background: #477d1126;
 }
