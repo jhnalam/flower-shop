@@ -125,13 +125,16 @@ body {
     margin: 10px;
     vertical-align: middle;
 }
+.subscribe{
 
+}
 .sub-content {
     background-image: url('../images/Rectangle\ 9.png');
     width: 1110px;
     text-align: center;
     background-size: cover;
     padding-bottom: 80px;
+    margin-top: 80px;
 }
 
 .sub-content h3 {
